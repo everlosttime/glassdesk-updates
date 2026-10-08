@@ -1,11 +1,11 @@
-# GlassDesk Updates
+# GlassDesk 更新
 
-Official Windows installers and release notes for GlassDesk.
+[下载 GlassDesk 1.0.0](https://github.com/everlosttime/glassdesk-updates/releases/tag/v1.0.0)
 
-Download the latest installer from [Releases](https://github.com/everlosttime/glassdesk-updates/releases/latest).
+此仓库提供 GlassDesk 的公开安装包、校验和与更新说明。0.2.9 及之后的安装版可以在关于页检查更新。
 
-This repository contains distribution artifacts only. Source code is maintained separately.
+1.0.0 使用新的深色银白 Z 形应用图标，包含统一的 Dock 启动台描边图标、启动台展开/收回动画和设置分类滚动联动。升级保留用户配置、应用库、布局和图标缓存。
 
-Starting with 0.2.9, the installed application checks this repository for stable releases, downloads the matching installer, verifies SHA-256, and installs into its existing directory. Settings and custom icons are retained.
+适用于 Windows 11 Build 26100 x64，安装包内置 .NET 10 运行时，未签名。请使用 Release 附带的 SHA256SUMS.txt 核验安装包。
 
-The initial update-enabled release must be installed manually. This build targets Windows 11 Build 26100 x64 and is unsigned.
+[最新更新 API](https://api.github.com/repos/everlosttime/glassdesk-updates/releases/latest)
