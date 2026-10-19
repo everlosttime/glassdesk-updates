@@ -1,21 +1,37 @@
-# GlassDesk 更新
+# GlassDesk 公开更新
 
-[下载 GlassDesk 1.4.0](https://github.com/everlosttime/glassdesk-updates/releases/tag/v1.4.0)
+## 最新版本：GlassDesk 1.4.4
 
-从 1.3.6 升级至 1.4.0：
+本次从公开版 1.4.0 更新至 1.4.4，汇总此前版本改进，并降低静止桌面时的后台 CPU 与内存占用。
 
-- 启动台支持拖拽创建文件夹，提供磨砂玻璃外观、重命名、内部排序、拖入和拖出。
-- 优化文件夹悬停识别与图标交换，修复重复图标、松手落点跳动等问题。
-- 优化当前用户登录启动，修复设置窗口顶部空白有时无法拖动的问题。
-- 新增自愿赞助：选择支付宝或微信，点击“赞助”后才弹出对应收款码，扫码后可在手机端自定义金额。
-- 软件免费，赞助完全自愿，不赞助也能使用全部功能。
+- 玻璃背景在静止时低频更新；动态桌面在非交互时约 30Hz，交互动画期间按需提高刷新率。
+- 缩短启动台后台进程保留时间，降低 .NET 内存驻留。
+- 优化状态栏、控制中心、媒体播放和音频设备选择。
+- 新增首次启动引导，并将更新说明检查与安装包下载分开。
+- 设置中可选择夸克或百度网盘下载；升级保留用户设置、应用库、布局和自定义图标。
 
-升级保留设置、应用库、文件夹、布局、自定义图标与登录启动配置。
+### 下载渠道
 
-[完整更新说明](Release-notes-v1.4.0.md)
+安装程序由作者上传到网盘。本仓库发布更新说明和版本信息，不托管安装程序。
 
-此仓库提供公开安装包、SHA256SUMS.txt、更新说明及更新内容图片。设置 → 关于 → 检查更新可获取最新稳定版；安装包不包含个人 Data。适用于 Windows 11 x64 Build 22000 及以上，内置 .NET 10。
+夸克网盘：https://pan.quark.cn/s/037d0cd5080b
+百度网盘：https://pan.baidu.com/s/1X_TFD0GMp8RJsRLNISjy_w?pwd=0a53
+百度网盘提取码：0a53
 
-[最新更新 API](https://api.github.com/repos/everlosttime/glassdesk-updates/releases/latest)
+如果网盘分享页还没有出现 GlassDesk-1.4.4-win-x64-Setup.exe，请等作者上传完成后再下载。
 
-![GlassDesk 1.3.6 到 1.4.0 更新内容](GlassDesk-1.3.6-to-1.4.0.png)
+### 版本说明与校验
+
+- [GlassDesk 1.4.4 更新说明](Release-notes-v1.4.4.txt)
+- [安装包 SHA-256](SHA256SUMS-v1.4.4.txt)
+- [GitHub 公开更新页](https://github.com/everlosttime/glassdesk-updates/releases/tag/v1.4.4)
+
+适用于 Windows 11 x64，Build 22000 及以上，安装包自带 .NET 10。升级不会覆盖个人 Data。安装包未签名；安装前可用 SHA256 校验。
+
+### 历史版本
+
+- [GlassDesk 1.4.0](https://github.com/everlosttime/glassdesk-updates/releases/tag/v1.4.0)
+
+### 更新检查接口
+
+https://api.github.com/repos/everlosttime/glassdesk-updates/releases/latest
