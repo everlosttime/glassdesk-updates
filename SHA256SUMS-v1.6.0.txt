@@ -1,0 +1,2 @@
+cbd48918da019f7e8aea1f64f8a070b0c15982c2bcad9880334dff2cade4fcdd  GlassDesk-1.6.0-win-x64-Setup.exe
+6ec59ad3d9481e14492980cce7cff9305c5339ca4e9aff4d18da13eb21599007  GlassDesk-1.6.0-win-x64.zip
